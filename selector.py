@@ -1,2 +1,5 @@
-# 숫자 6개선택하기
-random.select(6)
+import random
+
+result = random.sample(range(1,46), k=6)
+
+print(result)
