@@ -1,5 +1,7 @@
 import random
 
-result = random.sample(range(1,46), k=6)
+def get_lucky_nums():
+    result = random.sample(range(1,46), k=6)
 
-print(result)
+if __name__ == '__main__':
+    print(get_lucky_nums())
